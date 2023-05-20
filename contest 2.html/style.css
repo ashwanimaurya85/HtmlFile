@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #812424;
+    position: fixed;
+    width: 100%;
+    
+  }
+  
+  li {
+    float: left;
+    word-spacing: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(12, 14, 130);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(44, 145, 48);
+  }
+
+
+  input{
+    height: 15%;
+    width: 100%;
+  }
+  
+
+  button{
+    background: rgb(11, 141, 87);
+    color:white;
+    height: 2rem;
+    width: 100%;
+  }
+
+
+  table td{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+  }
+  form{
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    background: white;
+    box-shadow: 1px 4px 5px 4px rgba(0,0,0,0.3);
+    margin-top:3rem ;
+    box-sizing: content-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

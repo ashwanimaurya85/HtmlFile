@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale:">
+        <title>Tables</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    
+    <body>
+
+        <nav class="child">
+
+            <ul>
+                <li><a href="//https.www.libary.com">Library-system</a></li>
+                <li><a href="//https.www.register.com">Register</a></li>
+                <li><a href="//https.www.Book.com">Books</a></li>
+              </ul>
+        </nav><br>
+        <div><br>
+            <section>
+                <h1>Books</h1>
+            </section>
+       <table border="1" cellspacing="0" style="background-color: aqua; solid 1px rgb(0,0,0)" >
+           <tr>
+             <th>Books ID</th>
+             <th>Title</th>
+             <th>Author</th>
+             <th>Genre</th>
+             <th>Availability</th>
+           </tr>
+           <tr>
+            
+            <td rowspan="4">1</td>
+            <td><a href="#">Merchent of Venice</a></td>
+            <td rowspan="4">W.Shakespeare</td>
+            <td rowspan="4">Gen 1</td>
+            <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 1956</td>
+           </tr>
+           <tr>
+            <td>Page Count: 300</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-5456353275</td> 
+           </tr>
+           <tr>
+            <td rowspan="4">2</td>
+            <td><a href="#">The Grate Indian Noval</a></td>
+            <td rowspan="4">S.Tharoor</td>
+            <td rowspan="4">Gen 4</td>
+            <td rowspan="4"> Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2011</td>
+           </tr>
+           <tr>
+            <td>Page Count: 300</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-4563290456</td>
+           </tr>
+           <tr>
+            <td rowspan="4">3</td>
+            <td><a href="#">Wings of Fire</a></td>
+            <td rowspan="4">Dr.APJ Abdul Kalaam</td>
+            <td rowspan="4">Gen 4</td>
+            <td rowspan="4">Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2012</td>
+           </tr>
+           <tr>
+            <td>Page Count: 350</td>
+           </tr>
+           <tr>
+            <td>ISBN: 978-8173711466</td>
+           </tr>
+           <tr>
+            <td rowspan="4">4</td>
+            <td><a href="#">The Worlds Oldest Most Powerful Secret Socity</a></td>
+            <td rowspan="4">Anand Arungundram Mohan</td>
+            <td rowspan="4">Gen 1</td>
+            <td rowspan="4">Not Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 1650</td>
+           </tr>
+           <tr>
+            <td>Page Count: 160</td>
+           </tr>
+           <tr>
+            <td>ISBN: 978-1999090609</td>
+           </tr>
+           <tr>
+            <td rowspan="4">5</td>
+            <td><a href="#">Rich Man</a></td>
+            <td rowspan="4">R. Kapoor</td>
+            <td rowspan="4">Gen 5</td>
+            <td rowspan="4">Not Available</td>
+           </tr>
+           <tr>
+            <td>Publication Date: 2009</td>
+           </tr>
+           <tr>
+            <td>Page Count: 150</td>
+           </tr>
+           <tr>
+            <td>ISBN: 123-4567890458</td>
+           </tr>
+       </table>
+        </div>
+        <div>
+              <!-- <section> 
+                <h1>Register</h1><br>
+            </section>
+            <form method="POST"> -->
+                <form action="/sumit" method="post" id="register">
+                <h1>Register</h1> 
+                <div>
+                    <label for="name">First Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="name">Last Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div>
+                    <label for="dob">Date Of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required><br>
+                </div>
+                <div>
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" name="age" minlength="5" maxlength="100"><br>
+                </div>
+
+                <div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                </div>
+                <div>
+                    <label for="confirm password">Confirm Password:</label><br>
+                    <input type="password" id="password" name="password" required><br>
+                </div>
+                <div><br>
+                    <button>Register</button>
+                </div>
+
+            </form>
+    </div>
+        
+        
+    
+    </body>
+</html>
